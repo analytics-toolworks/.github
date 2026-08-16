@@ -14,6 +14,12 @@ libraries that perform the underlying computation.
 The tools automate common mechanics to allow analysts to focus
 on the project decisions and interpretation.
 
+## Projects
+
+| Project                                                       | PyPI                                             | Purpose                                                                                                                     |
+| ------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| [ml-vizkit](https://github.com/analytics-toolworks/ml-vizkit) | [ml-vizkit](https://pypi.org/project/ml-vizkit/) | Reusable visualizations for inspecting, comparing, and explaining trained machine-learning models and completed experiments |
+
 ## Purpose
 
 `analytics-toolworks` provides small tools for analytical work such as:
@@ -38,12 +44,6 @@ The tools complement established analytical libraries that:
 Like Seaborn makes charting easier, this org makes tools that
 raise the abstraction level for common coding tasks to let
 analysts focus on analysis rather than lower-level code.
-
-## Projects
-
-| Project                                                       | Purpose                                                                                                                     |
-| ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| [ml-vizkit](https://github.com/analytics-toolworks/ml-vizkit) | Reusable visualizations for inspecting, comparing, and explaining trained machine-learning models and completed experiments |
 
 ## Scope
 
