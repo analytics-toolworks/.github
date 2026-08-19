@@ -18,7 +18,8 @@ on the project decisions and interpretation.
 
 | Project                                                       | PyPI                                             | Purpose                                                                                                                     |
 | ------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| [ml-vizkit](https://github.com/analytics-toolworks/ml-vizkit) | [ml-vizkit](https://pypi.org/project/ml-vizkit/) | Reusable visualizations for inspecting, comparing, and explaining trained machine-learning models and completed experiments |
+| [eda-vizkit](https://github.com/analytics-toolworks/eda-vizkit) | [eda-vizkit](https://pypi.org/project/eda-vizkit/) | Reusable visualizations for inspecting distributions, relationships, and data quality during exploratory data analysis |
+| [ml-vizkit](https://github.com/analytics-toolworks/ml-vizkit) | [ml-vizkit](https://pypi.org/project/ml-vizkit/) | Reusable visualizations for inspecting, comparing, and explaining trained machine-learning models and experiments |
 
 ## Purpose
 
@@ -27,7 +28,7 @@ on the project decisions and interpretation.
 - visualizing trained machine-learning models
 - inspecting predictions and model behavior
 - comparing completed experiments
-- recording useful analytical evidence
+- presenting useful analytical evidence
 - preserving privacy in logs and reports
 - reducing repetitive plotting and reporting code
 - presenting results in consistent, inspectable forms
@@ -41,9 +42,9 @@ The tools complement established analytical libraries that:
 - execute statistical methods
 - query databases
 
-Like Seaborn makes charting easier, this org makes tools that
-raise the abstraction level for common coding tasks to let
-analysts focus on analysis rather than lower-level code.
+Like Seaborn raises the abstraction level for statistical visualization,
+tools in this organization raise the abstraction level for common analytical
+coding tasks so analysts can focus on analysis rather than lower-level mechanics.
 
 ## Scope
 
@@ -56,7 +57,7 @@ that help:
 - provide a consistent analytical view
 - reuse capabilities from established libraries
 
-This tools do NOT decide:
+These tools do NOT decide:
 
 - which problem to solve
 - which features to select
